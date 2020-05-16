@@ -17,7 +17,7 @@ impl_memory! {
 
 You specify the 3 arguments, first is the ID on enclave, second is the name of the memory and third is a type.
 
-## 独自関数の定義
+## Self-defined functions
 
 You can implement self-defined functions by `impl_runtime` macro.
 The following is an exmple of implementation of `transfer` function using in [ERC20 tutorials](/Tutorials/ERC20/transfer/).
