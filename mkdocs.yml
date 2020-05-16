@@ -1,0 +1,29 @@
+site_name: Anonify
+docs_dir: src
+site_dir: docs
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  # logo: assets/images/logo5.svg
+repo_name: Anonify
+repo_url: https://github.com/LayerXcom/anonify
+nav:
+  - index.md
+  - Getting Started:
+    - Set up: Getting_Started/setup.md
+    - Join the Network: Getting_Started/join.md
+    - Implement Self-defined logic: Getting_Started/self_defined_functions.md
+  - Tutorials:
+    - ERC20:
+      - mint/burn: Tutorials/ERC20/mint_burn.md
+      - transfer: Tutorials/ERC20/transfer.md
+      - approve/transfer_from: Tutorials/ERC20/approve.md
+  - Concepts:
+    - Technologies: Concepts/technologies.md
+    - Architecture: Concepts/overview.md
+    - Properties: Concepts/requirements.md
+    - Workflow: Concepts/workflow.md
+plugins:
+  - search
