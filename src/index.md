@@ -10,5 +10,5 @@ Instead of recording the history of state transitions in plain text like a norma
 
 ## References
 
-- White Paper
+- [White Paper(JP)](https://layerx.co.jp/wp-content/uploads/2020/06/anonify.pdf)
 - [Github](https://github.com/LayerXcom/anonify)
