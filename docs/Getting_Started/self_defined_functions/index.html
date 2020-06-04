@@ -26,7 +26,7 @@
       
         
         
-        <meta name="theme-color" content="#3f51b5">
+        <meta name="theme-color" content="#7e57c2">
       
     
     
@@ -48,7 +48,7 @@
   
     
     
-    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
   
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -539,7 +539,7 @@
                 <p>You can implement self defined logic on Anonify.</p>
 <h2 id="implement-enclave-memory">Implement enclave memory</h2>
 <p>You can use <code>impl_memory</code> macro to implement enclave memory.
-For example, <a href="/Tutorials/ERC20/">ERC20 tutorials</a> implement 4 memories like followings.</p>
+For example, <a href="https://layerxcom.github.io/anonify-book-en/Tutorials/ERC20/transfer/">ERC20 tutorials</a> implement 4 memories like followings.</p>
 <pre><code class="rust">impl_memory! {
     (0, &quot;Balance&quot;, U64),
     (1, &quot;Approved&quot;, Approved),
@@ -551,7 +551,7 @@ For example, <a href="/Tutorials/ERC20/">ERC20 tutorials</a> implement 4 memorie
 <p>You specify the 3 arguments, first is the ID on enclave, second is the name of the memory and third is a type.</p>
 <h2 id="self-defined-functions">Self-defined functions</h2>
 <p>You can implement self-defined functions by <code>impl_runtime</code> macro.
-The following is an exmple of implementation of <code>transfer</code> function using in <a href="/Tutorials/ERC20/transfer/">ERC20 tutorials</a>.</p>
+The following is an exmple of implementation of <code>transfer</code> function using in <a href="https://layerxcom.github.io/anonify-book-en/Tutorials/ERC20/transfer/">ERC20 tutorials</a>.</p>
 <pre><code class="rust">impl_runtime!{
     #[fn_id=1]
     pub fn transfer(

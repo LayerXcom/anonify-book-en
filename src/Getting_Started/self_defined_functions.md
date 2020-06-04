@@ -4,7 +4,7 @@ You can implement self defined logic on Anonify.
 ## Implement enclave memory
 
 You can use `impl_memory` macro to implement enclave memory.
-For example, [ERC20 tutorials](/Tutorials/ERC20/) implement 4 memories like followings.
+For example, [ERC20 tutorials](https://layerxcom.github.io/anonify-book-en/Tutorials/ERC20/transfer/) implement 4 memories like followings.
 
 ```rust
 impl_memory! {
@@ -20,7 +20,7 @@ You specify the 3 arguments, first is the ID on enclave, second is the name of t
 ## Self-defined functions
 
 You can implement self-defined functions by `impl_runtime` macro.
-The following is an exmple of implementation of `transfer` function using in [ERC20 tutorials](/Tutorials/ERC20/transfer/).
+The following is an exmple of implementation of `transfer` function using in [ERC20 tutorials](https://layerxcom.github.io/anonify-book-en/Tutorials/ERC20/transfer/).
 
 
 ```rust

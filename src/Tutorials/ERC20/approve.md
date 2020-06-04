@@ -9,7 +9,7 @@ Run `init_state` to initialize.
 ANONIFY_URL=http://172.28.1.1:8080 ./target/debug/anonify-cli anonify init_state -t 100
 ```
 
-The command `wallet list` tells us the accounts registerd in wallet, following are the accounts of Alice, Bob and Charlie. If you haven't created the accounts yet, see [the procuedure in `mint` and `burn`](/Tutorials/ERC20/mint_burn/).
+The command `wallet list` tells us the accounts registerd in wallet, following are the accounts of Alice, Bob and Charlie. If you haven't created the accounts yet, see [the procuedure in `mint` and `burn`](https://layerxcom.github.io/anonify-book-en/Tutorials/ERC20/mint_burn/).
 
 ```sh
 $ ANONIFY_URL=http://172.28.1.1:8080 ./target/debug/anonify-cli wallet list

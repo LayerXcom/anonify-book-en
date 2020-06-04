@@ -37,4 +37,4 @@ $ ANONIFY_URL=http://172.28.1.2:8080 ./target/debug/anonify-cli anonify register
 ```
 
 Congratulations! You have already joined Anonify network.
-You can implement self-defined functions, refer to folloing section, and also progress to [the tutorials of ERC20 functions](/Tutorials/ERC20/transfer/).
+You can implement self-defined functions, refer to folloing section, and also progress to [the tutorials of ERC20 functions](https://layerxcom.github.io/anonify-book-en/Tutorials/ERC20/transfer/).

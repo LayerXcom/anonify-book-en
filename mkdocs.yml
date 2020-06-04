@@ -4,8 +4,8 @@ site_dir: docs
 theme:
   name: material
   palette:
-    primary: indigo
-    accent: indigo
+    primary: deep purple
+    accent: deep purple
   # logo: assets/images/logo5.svg
 repo_name: Anonify
 repo_url: https://github.com/LayerXcom/anonify
